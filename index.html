@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Week12-jQuery-Assignment</title>
+    <script src="lib/JQuery-3.7.1.js"></script>
+    <script src="Script.js" defer></script>
+
+    <style>
+      body {
+        font-family: sans-serif;
+        background: #f9f9f9;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+      }
+
+      header {
+        background-color: #2e3b4e;
+        color: white;
+        padding: 20px 0;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2.5em;
+      }
+
+      header p {
+        margin-top: 10px;
+        font-size: 1em;
+        font-weight: 300;
+      }
+
+      #button-bar {
+        margin: 20px 0;
+      }
+
+      button {
+        padding: 8px 16px;
+        margin: 0 10px 10px 0;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      #car-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin: 20px;
+        padding-bottom: 30px;
+      }
+
+      footer {
+        background-color: #2e3b4e;
+        color: white;
+        padding: 15px 0;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Car Lottery</h1>
+      <p>Win A Car!</p>
+    </header>
+
+    <div id="button-bar">
+      <button id="random-car">Pick Car!</button>
+    </div>
+
+    <div id="car-list"></div>
+
+    <footer>
+      <p>Copyright Aayush Waje 2025</p>
+    </footer>
+  </body>
+</html>
